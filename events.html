@@ -1,0 +1,42 @@
+---
+layout: page
+title: Events
+description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of events
+---
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4">
+  {% for event in site.data.events %}
+    <div class="col mb-4">
+      <div class="card h-100">
+        <h2 class="card-header h6">
+          <i class="bi bi-calendar-week me-2"></i>
+          <span>{{ event.date | date: "%A %e %B %Y" }}</span>
+          {% unless forloop.last %}
+            <span class="badge rounded-pill text-bg-dark ms-2">Week {{ forloop.index }}</span>
+          {% endunless %}
+        </h2>
+        <div class="card-body">
+          <p class="card-text">{{- event.description -}}</p>
+          {% if event.tides %}
+            <table class="table">
+              <tbody>
+                {% for tide in event.tides %}
+                  {% case tide.height | slice: 0 %}
+                    {% when "0" %}
+                      {% assign class = "bi bi-arrow-down-circle text-danger" %}
+                    {% else %}
+                    {% assign class = "bi bi-arrow-up-circle text-success" %}
+                  {% endcase %}
+                  <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
+                    <td><i class="bi bi-clock me-1"></i> {{ tide.time | date: "%l:%M %P" }}</td>
+                    <td><i class="{{ class }} me-1"></i> {{ tide.height }}m</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
