@@ -7,7 +7,7 @@ layout: default
     <h1 class="display-4">{{ site.title }}</h1>
     <p class="h2">{{ site.subtitle }}</p>
     <p class="lead col-sm-10 col-md-8 col-lg-6 col-xl-4">{{ site.description }}</p>
-    <a href="/join" class="btn btn-outline-light me-3">Join</a>
-    <a href="/about" class="btn btn-outline-light border-0">Find out more</button>
+    <a href="{{- '/join' | relative_url -}}" class="btn btn-outline-light me-3">Join</a>
+    <a href="{{- '/about' | relative_url -}}" class="btn btn-outline-light border-0">Find out more</button>
   </div>
 </header>
