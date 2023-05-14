@@ -1,0 +1,8 @@
+---
+layout: null
+---
+.cover {
+  background-image: url({{- '/assets/img/cover.jpg' | relative_url -}});
+  background-position: 50% 60%;
+  background-size: cover;
+}
