@@ -18,5 +18,3 @@ permalink: /:title
 
 sass:
   style: :compressed
-
-source: _source
