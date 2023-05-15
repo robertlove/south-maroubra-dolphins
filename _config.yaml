@@ -8,18 +8,15 @@ twitter: southmaroubradolphins
 language: en
 region: AU
 
-permalink: /:title
-
 defaults:
   - scope:
       path: ""
     values:
       layout: "page"
 
-exclude:
-  - LICENSE
-  - Rakefile
-  - README.md
+permalink: /:title
 
 sass:
   style: :compressed
+
+source: _source
