@@ -1,6 +1,11 @@
 ---
 layout: null
 ---
+
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "bootstrap-icons";
+
 .cover {
   background-image: url({{- '/assets/img/cover.jpg' | relative_url -}});
   background-position: 50% 60%;
