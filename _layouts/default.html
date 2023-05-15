@@ -13,7 +13,7 @@
 {%- assign description = description | escape -%}
 
 <!doctype html>
-<html lang="en">
+<html lang="{{- site.language -}}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +35,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="{{ description }}">
-    <meta property="og:locale" content="en_AU">
+    <meta property="og:locale" content="{{- site.language -}}_{{- site.region -}}">
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/icon.svg' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/assets/img/icon-180.png' | relative_url }}">
@@ -53,13 +53,13 @@
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item me-3">
-              <a class="nav-link" href="{{- '/about' | relative_url -}}">About</a>
+              <a class="nav-link{% if page.url == '/about' %} active{% endif %}" href="{{- '/about' | relative_url -}}">About</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="{{- '/events' | relative_url -}}">Events</a>
+              <a class="nav-link{% if page.url == '/events' %} active{% endif %}" href="{{- '/events' | relative_url -}}">Events</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-outline-dark" href="{{- '/join' | relative_url -}}">Join</a>
+              <a class="btn{% if page.url == '/join' %} btn-dark{% else %} btn-outline-dark{% endif %}" href="{{- '/join' | relative_url -}}">Join</a>
             </li>
           </ul>
         </div>
@@ -70,19 +70,20 @@
       <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
         <div class="container-fluid">
           <a class="navbar-brand" href="{{- '/' | relative_url -}}">{{- site.title -}}</a>
+          <span class="navbar-text">{{- site.subtitle -}}</span>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
       </nav>
       <div class="offcanvas-body">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link" href="{{- '/about' | relative_url -}}">About</a>
+            <a class="nav-link{% if page.url == '/about' %} active{% endif %}" href="{{- '/about' | relative_url -}}">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{- '/events' | relative_url -}}">Events</a>
+            <a class="nav-link{% if page.url == '/events' %} active{% endif %}" href="{{- '/events' | relative_url -}}">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{- '/join' | relative_url -}}">Join</a>
+            <a class="nav-link{% if page.url == '/join' %} active{% endif %}" href="{{- '/join' | relative_url -}}">Join</a>
           </li>
         </ul>
       </div>
