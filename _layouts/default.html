@@ -44,7 +44,7 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-body border-bottom shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="{{- '/' | relative_url -}}">{{- site.title -}}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +70,6 @@
       <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
         <div class="container-fluid">
           <a class="navbar-brand" href="{{- '/' | relative_url -}}">{{- site.title -}}</a>
-          <span class="navbar-text">{{- site.subtitle -}}</span>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
       </nav>
@@ -88,6 +87,6 @@
         </ul>
       </div>
     </nav>
-    <script src="{{- '/assets/js/bootstrap.bundle.min.js' | relative_url -}}"></script>
+    <script src="{{- '/assets/js/script.js' | relative_url -}}"></script>
   </body>
 </html>
