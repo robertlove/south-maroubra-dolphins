@@ -5,3 +5,21 @@ description: The South Maroubra Dolphins is a winter swimming club that meets at
 baseurl: "/south-maroubra-dolphins"
 url: "https://robertlove.github.io"
 twitter: southmaroubradolphins
+language: en
+region: AU
+
+permalink: /:title
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - LICENSE
+  - Rakefile
+  - README.md
+
+sass:
+  style: :compressed
