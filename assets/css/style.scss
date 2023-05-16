@@ -4,9 +4,45 @@ layout: null
 
 @import "variables";
 @import "bootstrap/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+header {
+  background-color: {{ site.theme_color }};
+}
 
 .cover {
   background-image: url({{- '/assets/img/cover.jpg' | relative_url -}});
   background-position: 50% 60%;
   background-size: cover;
+}
+
+.supporters {
+  background-color: {{ site.theme_color }};
+  img {
+    width: 35%;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .supporters {
+    img {
+      width: 55%;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .supporters {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .supporters {
+    img {
+      width: 45%;
+    }
+  }
 }
