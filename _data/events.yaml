@@ -1,5 +1,9 @@
-- description: Bring a friend! Dynamites cooking.
-  date: 2023-05-07 08:30:00 +10
+- description: Bring a friend.
+  date: 2023-05-07 09:00:00 +10
+  cooking: Dynamites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-05-07 03:19:00 +10
       height: 0.41
@@ -9,8 +13,12 @@
       height: 0.54
     - time: 2023-05-07 21:29:00 +10
       height: 1.93
-- description: Dynamites cooking.
-  date: 2023-05-14 08:30:00 +10
+- description:
+  date: 2023-05-14 09:00:00 +10
+  cooking: Dynamites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-05-14 03:26:00 +10
       height: 1.7
@@ -20,8 +28,12 @@
       height: 1.48
     - time: 2023-05-14 22:13:00 +10
       height: 0.69
-- description: Dynamites cooking.
-  date: 2023-05-21 08:30:00 +10
+- description:
+  date: 2023-05-21 09:00:00 +10
+  cooking: Dynamites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-05-21 03:31:00 +10
       height: 0.45
@@ -31,8 +43,12 @@
       height: 0.64
     - time: 2023-05-21 21:30:00 +10
       height: 1.88
-- description: Dynamites cooking.
-  date: 2023-05-28 08:30:00 +10
+- description:
+  date: 2023-05-28 09:00:00 +10
+  cooking: Dynamites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-05-28 02:08:00 +10
       height: 1.51
@@ -42,8 +58,12 @@
       height: 1.31
     - time: 2023-05-28 20:57:00 +10
       height: 0.87
-- description: Dynamites cooking.
-  date: 2023-06-04 08:30:00 +10
+- description:
+  date: 2023-06-04 09:00:00 +10
+  cooking: Dynamites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-06-04 02:18:00 +10
       height: 0.4
@@ -53,8 +73,12 @@
       height: 0.54
     - time: 2023-06-04 20:25:00 +10
       height: 1.99
-- description: Moths cooking.
-  date: 2023-06-11 08:30:00 +10
+- description:
+  date: 2023-06-11 09:00:00 +10
+  cooking: Moths
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-06-11 01:55:00 +10
       height: 1.71
@@ -64,8 +88,12 @@
       height: 1.47
     - time: 2023-06-11 20:45:00 +10
       height: 0.71
-- description: Interclub with Coogee Penguins! Moths cooking.
-  date: 2023-06-18 08:30:00 +10
+- description: Interclub with Coogee Penguins.
+  date: 2023-06-18 09:00:00 +10
+  cooking: Moths
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-06-18 02:34:00 +10
       height: 0.47
@@ -75,8 +103,12 @@
       height: 0.63
     - time: 2023-06-18 20:28:00 +10
       height: 1.87
-- description: Cock of the Walk! Moths cooking.
-  date: 2023-06-25 08:30:00 +10
+- description: Cock of the Walk.
+  date: 2023-06-25 09:00:00 +10
+  cooking: Moths
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-06-25 00:24:00 +10
       height: 1.58
@@ -86,8 +118,12 @@
       height: 1.31
     - time: 2023-06-25 19:02:00 +10
       height: 0.82
-- description: Moths cooking.
-  date: 2023-07-02 08:30:00 +10
+- description:
+  date: 2023-07-02 09:00:00 +10
+  cooking: Moths
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-07-02 01:15:00 +10
       height: 0.43
@@ -97,8 +133,12 @@
       height: 0.53
     - time: 2023-07-02 19:18:00 +10
       height: 1.96
-- description: Cock of the Walk! Moths cooking.
-  date: 2023-07-09 08:30:00 +10
+- description: Cock of the Walk.
+  date: 2023-07-09 09:00:00 +10
+  cooking: Moths
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-07-09 00:31:00 +10
       height: 1.77
@@ -108,8 +148,12 @@
       height: 1.5
     - time: 2023-07-09 19:17:00 +10
       height: 0.63
-- description: Luddites cooking.
-  date: 2023-07-16 08:30:00 +10
+- description:
+  date: 2023-07-16 09:00:00 +10
+  cooking: Luddites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-07-16 01:40:00 +10
       height: 0.48
@@ -119,8 +163,12 @@
       height: 0.62
     - time: 2023-07-16 19:30:00 +10
       height: 1.79
-- description: Luddites cooking.
-  date: 2023-07-23 08:30:00 +10
+- description:
+  date: 2023-07-23 09:00:00 +10
+  cooking: Luddites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-07-23 05:44:00 +10
       height: 0.5
@@ -130,8 +178,12 @@
       height: 0.69
     - time: 2023-07-23 23:45:00 +10
       height: 1.54
-- description: Age championships! Luddites cooking.
-  date: 2023-07-30 08:30:00 +10
+- description: Age Championships.
+  date: 2023-07-30 09:00:00 +10
+  cooking: Luddites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-07-30 00:07:00 +10
       height: 0.47
@@ -141,8 +193,12 @@
       height: 0.55
     - time: 2023-07-30 18:09:00 +10
       height: 1.85
-- description: Luddites cooking.
-  date: 2023-08-06 08:30:00 +10
+- description:
+  date: 2023-08-06 09:00:00 +10
+  cooking: Luddites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-08-06 05:46:00 +10
       height: 0.28
@@ -150,8 +206,12 @@
       height: 1.57
     - time: 2023-08-06 17:57:00 +10
       height: 0.48
-- description: Grade championships! Luddites cooking.
-  date: 2023-08-13 08:30:00 +10
+- description: Grade Championships.
+  date: 2023-08-13 09:00:00 +10
+  cooking: Luddites
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-08-13 00:43:00 +10
       height: 0.51
@@ -161,8 +221,12 @@
       height: 0.63
     - time: 2023-08-13 18:31:00 +10
       height: 1.67
-- description: Yobbos cooking.
-  date: 2023-08-20 08:30:00 +10
+- description:
+  date: 2023-08-20 09:00:00 +10
+  cooking: Yobbos
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-08-20 04:26:00 +10
       height: 0.41
@@ -172,8 +236,12 @@
       height: 0.54
     - time: 2023-08-20 22:36:00 +10
       height: 1.56
-- description: 100 yards championships! Yobbos cooking.
-  date: 2023-08-27 08:30:00 +10
+- description: 100 yards championships.
+  date: 2023-08-27 09:00:00 +10
+  cooking: Yobbos
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-08-27 04:39:00 +10
       height: 1.17
@@ -183,8 +251,12 @@
       height: 1.69
     - time: 2023-08-27 23:51:00 +10
       height: 0.4
-- description: Yobbos cooking.
-  date: 2023-09-03 08:30:00 +10
+- description:
+  date: 2023-09-03 09:00:00 +10
+  cooking: Yobbos
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-09-03 04:25:00 +10
       height: 0.21
@@ -194,8 +266,12 @@
       height: 0.32
     - time: 2023-09-03 22:54:00 +10
       height: 1.64
-- description: Cock of the Walk! Knockout! Yobbos cooking.
-  date: 2023-09-10 08:30:00 +10
+- description: Cock of the Walk. Knockout.
+  date: 2023-09-10 09:00:00 +10
+  cooking: Yobbos
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-09-10 05:28:00 +10
       height: 1.13
@@ -203,8 +279,11 @@
       height: 0.69
     - time: 2023-09-10 17:21:00 +10
       height: 1.54
-- description: Australian titles!
-  date: 2023-09-17 08:30:00 +10
+- description: National Titles.
+  date: 2023-09-17 09:00:00 +10
+  location:
+    name: Manly Aquatic Centre
+    url: https://www.northernbeaches.nsw.gov.au/things-to-do/swimming-pools/manly-aquatic-centre
   tides:
     - time: 2023-09-17 03:15:00 +10
       height: 0.36
@@ -214,8 +293,12 @@
       height: 0.43
     - time: 2023-09-17 21:35:00 +10
       height: 1.55
-- description: Finals! 100%! Ladies Day! Yobbos cooking.
-  date: 2023-09-24 08:30:00 +10
+- description: Finals. 100%. Ladies Day.
+  date: 2023-09-24 09:00:00 +10
+  cooking: Yobbos
+  location:
+    name: Wylie's Baths
+    url: https://wylies.com.au/
   tides:
     - time: 2023-09-24 03:14:00 +10
       height: 1.12
@@ -227,3 +310,6 @@
       height: 0.45
 - description: Presentation Night
   date: 2023-10-28 18:30:00 +10
+  location:
+    name: Randwick Golf Club
+    url: https://www.randwickgolfclub.com.au/
