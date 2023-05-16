@@ -15,25 +15,31 @@ description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of event
           {% endunless %}
         </h2>
         <div class="card-body">
-          <p class="card-text">{{- event.description -}}</p>
-          {% if event.tides %}
-            <table class="table">
-              <tbody>
-                {% for tide in event.tides %}
-                  {% assign tide_height_slice = tide.height | slice: 0 | strip %}
-                  {% if tide_height_slice == "0" %}
-                    {% assign class = "bi bi-arrow-down-circle text-danger" %}
-                  {% else %}
-                    {% assign class = "bi bi-arrow-up-circle text-success" %}
-                  {% endif %}
-                  <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
-                    <td><i class="bi bi-clock me-1"></i> {{ tide.time | date: "%l:%M %P" }}</td>
-                    <td><i class="{{ class }} me-1"></i> {{ tide.height }}m</td>
-                  </tr>
-                {% endfor %}
-              </tbody>
-            </table>
+          <p class="card-text">{{- event.description -}}&nbsp;</p>
+          <table class="table">
+            <head>
+              <tr>
+                <th><i class="bi bi-geo-alt me-1"></i> <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a></th>
+                <th>{% if event.cooking %}<i class="bi bi-people me-1"></i> {{ event.cooking }}{% endif %}</th>
+              </tr>
+            </head>
+            {% if event.tides %}
+            <tbody class="table-group-divider">
+              {% for tide in event.tides %}
+              {% assign tide_height_slice = tide.height | slice: 0 | strip %}
+              {% if tide_height_slice == "0" %}
+                {% assign class = "bi bi-arrow-down-circle text-danger" %}
+              {% else %}
+                {% assign class = "bi bi-arrow-up-circle text-success" %}
+              {% endif %}
+              <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
+                <td><i class="bi bi-clock me-1"></i> {{ tide.time | date: "%l:%M %P" }}</td>
+                <td><i class="{{ class }} me-1"></i> <span class="font-monospace">{{ tide.height }}</span>m</td>
+              </tr>
+            {% endfor %}
+            </tbody>
           {% endif %}
+          </table>
         </div>
       </div>
     </div>
