@@ -18,6 +18,6 @@ layout: null
   "start_url": "{{ '/' | relative_url }}",
   "display": "browser",
   "orientation": "any",
-  "theme_color": "#0d6efd",
+  "theme_color": "{{- site.theme_color -}}",
   "background_color": "#ffffff"
 }
