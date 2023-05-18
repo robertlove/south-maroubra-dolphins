@@ -15,6 +15,9 @@ defaults:
     values:
       layout: "page"
 
+plugins:
+  - jekyll-redirect-from
+
 exclude:
   - LICENSE
   - Rakefile
