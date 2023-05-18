@@ -19,8 +19,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ description }}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@{{ site.twitter }}">
-    <meta name="twitter:creator" content="@{{ site.twitter }}">
     <meta name="twitter:title" content="{{ title }}">
     <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:image" content="{{ image }}">
@@ -88,8 +86,9 @@
     <footer class="py-5 bg-body-tertiary border-top">
       <div class="container">
         <ul class="list-inline">
-          <li class="list-inline-item"><a class="btn btn-dark" href="https://www.facebook.com/SouthMaroubraDolphins" target="_blank"><i class="bi bi-facebook"></i></a></li>
-          <li class="list-inline-item"><a class="btn btn-dark" href="https://www.instagram.com/south_maroubra_dolphins/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+          {% for item in site.data.social %}
+            <li class="list-inline-item"><a class="btn btn-dark" href="{{- item.url -}}" title="{{- item.title | escape -}}" target="_blank"><i class="bi bi-{{- item.icon -}}"></i></a></li>
+          {% endfor %}
         </ul>
         <p class="small">&copy; 2023 {{ site.title }} {{ site.subtitle }}. All rights reserved.</p>
       </div>
