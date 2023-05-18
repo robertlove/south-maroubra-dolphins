@@ -1,0 +1,12 @@
+- title: Home
+  navbar_url: /
+  offcanvas_url: /
+- title: About
+  navbar_url: /#about
+  offcanvas_url: /about
+- title: Membership
+  navbar_url: /#membership
+  offcanvas_url: /membership
+- title: Events
+  navbar_url: /events
+  offcanvas_url: /events
