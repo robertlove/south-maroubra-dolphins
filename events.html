@@ -6,10 +6,10 @@ description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of event
 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
   {% for event in site.data.events %}
     <div class="col mb-4">
-      <div class="card h-100">
+      <div class="card h-100" id="{{ event.date | date: '%F' }}">
         <h2 class="card-header h6">
           <i class="bi bi-calendar-week me-2"></i>
-          <span>{{ event.date | date: "%A %e %B %Y" }}</span>
+          <span>{{ event.date | date: '%A %e %B %Y' }}</span>
           {% unless forloop.last %}
             <span class="badge rounded-pill text-bg-dark ms-2 float-end">Week {{ forloop.index }}</span>
           {% endunless %}
@@ -33,7 +33,7 @@ description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of event
                 {% assign class = "bi bi-arrow-up-circle text-success" %}
               {% endif %}
               <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
-                <td><i class="bi bi-clock me-1"></i> {{ tide.time | date: "%l:%M %P" }}</td>
+                <td><i class="bi bi-clock me-1"></i> {{ tide.time | date: '%l:%M %P' }}</td>
                 <td><i class="{{ class }} me-1"></i> <span class="font-monospace">{{ tide.height }}</span>m</td>
               </tr>
             {% endfor %}
