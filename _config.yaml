@@ -6,6 +6,8 @@ baseurl: "/south-maroubra-dolphins"
 url: "https://robertlove.github.io"
 language: en
 region: AU
+date_format: "%A, %e %B %Y"
+time_format: "%l:%M %P"
 theme_color: "#7DC7E9"
 
 defaults:

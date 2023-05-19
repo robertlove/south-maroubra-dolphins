@@ -11,14 +11,24 @@ layout: default
       <a href="#membership" class="btn btn-outline-light mb-3 mb-sm-0 me-3 d-block d-sm-inline-block">Join</a>
       <a href="#about" class="btn btn-outline-light border-0 d-block d-sm-inline-block">Find out more</a>
     </div>
-    <a href="{{- '/events#2023-05-21' | relative_url -}}" class="btn btn-sm btn-outline-light d-block d-sm-inline-block small">
-      <i class="bi bi-calendar-event me-2"></i>
-      Next event: <br class="d-sm-none"> Sunday 21 May 2023 <br class="d-sm-none"> at Wylie's Baths
-    </a>
   </div>
 </header>
 
 <main>
+
+  <section class="alert alert-light" role="alert">
+    <div class="container d-flex align-items-center">
+      <i class="bi bi-calendar-event me-3"></i>
+      <div>
+        <h2 class="d-inline fs-6">Next event:</h2>
+        <p class="d-inline" id="next-event">
+          <span class="spinner-border spinner-border-sm" role="status">
+            <span class="visually-hidden">Checking...</span>
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
 
   <section class="py-5" id="about">
     <div class="container">
