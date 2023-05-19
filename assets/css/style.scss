@@ -27,26 +27,17 @@ header {
   img {
     width: 35%;
   }
-}
-
-@include media-breakpoint-up(md) {
-  .supporters {
+  @include media-breakpoint-up(md) {
     img {
-      width: 45%;
+      width: 40%;
     }
   }
-}
-
-@include media-breakpoint-up(lg) {
-  .supporters {
+  @include media-breakpoint-up(lg) {
     img {
       width: 50%;
     }
   }
-}
-
-@include media-breakpoint-up(xl) {
-  .supporters {
+  @include media-breakpoint-up(xl) {
     img {
       width: 45%;
     }
