@@ -5,7 +5,7 @@ layout: null
 @import "bootstrap/bootstrap";
 @import "bootstrap-icons";
 
-$navbar-height: $navbar-brand-height + ($navbar-brand-padding-y * 2) + ($navbar-padding-y * 2) !default;
+$navbar-height: $navbar-brand-height + ($navbar-brand-padding-y * 2) + ($navbar-padding-y * 2) + 1 !default;
 
 html {
   scroll-padding-top: $navbar-height;
