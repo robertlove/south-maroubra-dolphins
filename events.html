@@ -3,45 +3,53 @@ title: Events
 description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of events
 ---
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
-  {% for event in site.data.events %}
-    <div class="col mb-4">
-      <div class="card h-100" id="{{ event.date | date: '%F' }}">
-        <h2 class="card-header h6">
-          <i class="bi bi-calendar-event me-2"></i>
-          <span>{{ event.date | date: site.date_format }}</span>
-          {% unless forloop.last %}
-            <span class="badge rounded-pill text-bg-dark ms-2 float-end">Week {{ forloop.index }}</span>
-          {% endunless %}
-        </h2>
-        <div class="card-body">
-          <p class="card-text">{{- event.description -}}&nbsp;</p>
-          <table class="table">
-            <head>
-              <tr>
-                <th><i class="bi bi-geo-alt me-1"></i> <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a></th>
-                <th>{% if event.cooking %}<i class="bi bi-people me-1"></i> {{ event.cooking }}{% endif %}</th>
-              </tr>
-            </head>
-            {% if event.tides %}
-            <tbody class="table-group-divider">
-              {% for tide in event.tides %}
-              {% assign tide_height_slice = tide.height | slice: 0 | strip %}
-              {% if tide_height_slice == "0" %}
-                {% assign class = "bi bi-arrow-down-circle text-danger" %}
-              {% else %}
-                {% assign class = "bi bi-arrow-up-circle text-success" %}
-              {% endif %}
-              <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
-                <td><i class="bi bi-clock me-1"></i> {{ tide.time | date: site.time_format }}</td>
-                <td><i class="{{ class }} me-1"></i> <span class="font-monospace">{{ tide.height }}</span>m</td>
-              </tr>
-            {% endfor %}
-            </tbody>
-          {% endif %}
-          </table>
+{% include next_event.html %}
+
+<section class="py-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+      {% for event in site.data.events %}
+        <div class="col mb-4">
+          <div class="card h-100" id="{{ event.date | date: '%F' }}">
+            <h2 class="card-header h6">
+              {% include icon.html name='calendar-event' class='me-2' %}
+              <span>{{ event.date | date: site.date_format }}</span>
+              {% unless forloop.last %}
+                <span class="badge rounded-pill text-bg-dark ms-2 float-end">Week {{ forloop.index }}</span>
+              {% endunless %}
+            </h2>
+            <div class="card-body">
+              <p class="card-text">{{- event.description -}}&nbsp;</p>
+              <table class="table">
+                <head>
+                  <tr>
+                    <th>{% include icon.html name='geo-alt' class='me-1' %} <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a></th>
+                    <th>{% if event.cooking %}{% include icon.html name='people' class='me-1' %} {{ event.cooking }}{% endif %}</th>
+                  </tr>
+                </head>
+                {% if event.tides %}
+                  <tbody class="table-group-divider">
+                  {% for tide in event.tides %}
+                    {% assign tide_height_slice = tide.height | slice: 0 | strip %}
+                    {% if tide_height_slice == "0" %}
+                      {% assign icon_name = 'arrow-down-circle' %}
+                      {% assign icon_class = 'text-danger me-1' %}
+                    {% else %}
+                      {% assign icon_name = 'arrow-up-circle' %}
+                      {% assign icon_class = 'text-success me-1' %}
+                    {% endif %}
+                    <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
+                      <td>{% include icon.html name='clock' class='me-1' %} {{ tide.time | date: site.time_format }}</td>
+                      <td>{% include icon.html name=icon_name class=icon_class %}<i class="{{ class }} me-1"></i> <span class="font-monospace">{{ tide.height }}</span>m</td>
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+                {% endif %}
+              </table>
+            </div>
+          </div>
         </div>
-      </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
+  </div>
+</section>
