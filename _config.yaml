@@ -20,6 +20,8 @@ plugins:
   - jekyll-redirect-from
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - LICENSE
   - Rakefile
   - README.md
@@ -28,3 +30,6 @@ permalink: /:title
 
 sass:
   style: :compressed
+
+redirect_from:
+  json: false
