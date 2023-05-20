@@ -2,8 +2,6 @@
 layout: null
 ---
 
-{% include_relative bootstrap.bundle.min.js %}
-
 const events = [{% for event in site.data.events %}
   {
     date: "{{- event.date | date: site.date_format -}}",

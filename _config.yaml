@@ -16,9 +16,6 @@ defaults:
     values:
       layout: "page"
 
-plugins:
-  - jekyll-redirect-from
-
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -31,5 +28,11 @@ permalink: /:title
 sass:
   style: :compressed
 
+plugins:
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+
 redirect_from:
   json: false
+
+remote_theme: signified/paraqeet
