@@ -88,7 +88,7 @@
       height: 1.47
     - time: 2023-06-11 20:45:00 +1000
       height: 0.71
-- description: Interclub with Coogee Penguins
+- description: Interclub with Coogee Penguins Winter Swimming Club
   date: 2023-06-18 09:00:00 +1000
   cooking: Moths
   location:
@@ -221,12 +221,12 @@
       height: 0.63
     - time: 2023-08-13 18:31:00 +1000
       height: 1.67
-- description:
+- description: Interclub with Maroubra Seals Winter Swimming Club
   date: 2023-08-20 09:00:00 +1000
-  cooking: Yobbos
+  cooking: Maroubra Seals
   location:
-    name: Wylie's Baths
-    url: https://wylies.com.au/
+    name: Mahon Pool
+    url: https://www.randwick.nsw.gov.au/facilities-and-recreation/beaches-and-coast/ocean-pools/mahon-pool
   tides:
     - time: 2023-08-20 04:26:00 +1000
       height: 0.41
