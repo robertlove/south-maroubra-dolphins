@@ -3,8 +3,6 @@ title: Events
 description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of events
 ---
 
-{%- assign week = 1 -%}
-
 {% include next_event.html %}
 
 <section class="py-5">
@@ -16,37 +14,35 @@ description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of event
             <h2 class="card-header h6">
               {% include icon.html name='calendar-event' class='me-2' %}
               <span>{{ event.date | date: site.date_format }}</span>
-              {% assign day = event.date | date: '%A' %}
-              {% if day == 'Sunday' %}
-                <span class="badge rounded-pill text-bg-dark ms-2 float-end">Week {{ week }}</span>
-                {% assign week = week | plus: 1 %}
+              {% if event.week %}
+                <span class="badge rounded-pill text-bg-dark ms-2 float-end">Week {{ event.week }}</span>
               {% endif %}
             </h2>
             <div class="card-body">
-              <p class="card-text">{{- event.description -}}&nbsp;</p>
+              <p class="card-text">{%- if event.description -%}{{- event.description -}}{%- else -%}&nbsp;{%- endif -%}</p>
               <table class="table">
                 <head>
                   <tr>
                     <th>{% include icon.html name='geo-alt' class='me-1' %} <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a></th>
-                    <th>{% if event.cooking %}{% include icon.html name='people' class='me-1' %} {{ event.cooking }}{% endif %}</th>
+                    <th>{%- if event.hosting -%}{% include icon.html name='people' class='me-1' %} {{ event.hosting }}{%- endif -%}</th>
                   </tr>
                 </head>
                 {% if event.tides %}
                   <tbody class="table-group-divider">
-                  {% for tide in event.tides %}
-                    {% assign tide_height_slice = tide.height | slice: 0 | strip %}
-                    {% if tide_height_slice == "0" %}
-                      {% assign icon_name = 'arrow-down-circle' %}
-                      {% assign icon_class = 'text-danger me-1' %}
-                    {% else %}
-                      {% assign icon_name = 'arrow-up-circle' %}
-                      {% assign icon_class = 'text-success me-1' %}
-                    {% endif %}
-                    <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
-                      <td>{% include icon.html name='clock' class='me-1' %} {{ tide.time | date: site.time_format }}</td>
-                      <td>{% include icon.html name=icon_name class=icon_class %}<i class="{{ class }} me-1"></i> <span class="font-monospace">{{ tide.height }}</span>m</td>
-                    </tr>
-                  {% endfor %}
+                    {% for tide in event.tides %}
+                      {% assign tide_height_slice = tide.height | slice: 0 | strip %}
+                      {% if tide_height_slice == "0" %}
+                        {% assign icon_name = 'arrow-down-circle' %}
+                        {% assign icon_class = 'text-danger me-1' %}
+                      {% else %}
+                        {% assign icon_name = 'arrow-up-circle' %}
+                        {% assign icon_class = 'text-success me-1' %}
+                      {% endif %}
+                      <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
+                        <td>{% include icon.html name='clock' class='me-1' %} {{ tide.time | date: site.time_format }}</td>
+                        <td>{% include icon.html name=icon_name class=icon_class %}<i class="{{ class }} me-1"></i> <span class="font-monospace">{{ tide.height }}</span>m</td>
+                      </tr>
+                    {% endfor %}
                   </tbody>
                 {% endif %}
               </table>
