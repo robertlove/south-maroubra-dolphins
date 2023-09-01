@@ -289,15 +289,6 @@
   location:
     name: Manly Aquatic Centre
     url: https://www.northernbeaches.nsw.gov.au/things-to-do/swimming-pools/manly-aquatic-centre
-  tides:
-    - time: 2023-09-17 03:15:00 +1000
-      height: 0.36
-    - time: 2023-09-17 09:27:00 +1000
-      height: 1.53
-    - time: 2023-09-17 15:29:00 +1000
-      height: 0.43
-    - time: 2023-09-17 21:35:00 +1000
-      height: 1.55
 - description: Finals, 100%, and Ladies Day
   date: 2023-09-24 09:00:00 +1000
   cooking: Yobbos
