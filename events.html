@@ -3,6 +3,8 @@ title: Events
 description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of events
 ---
 
+{%- assign week = 1 -%}
+
 {% include next_event.html %}
 
 <section class="py-5">
@@ -14,9 +16,11 @@ description: South Maroubra Dolphins Winter Swimming Club 2023 calendar of event
             <h2 class="card-header h6">
               {% include icon.html name='calendar-event' class='me-2' %}
               <span>{{ event.date | date: site.date_format }}</span>
-              {% unless forloop.last %}
-                <span class="badge rounded-pill text-bg-dark ms-2 float-end">Week {{ forloop.index }}</span>
-              {% endunless %}
+              {% assign day = event.date | date: '%A' %}
+              {% if day == 'Sunday' %}
+                <span class="badge rounded-pill text-bg-dark ms-2 float-end">Week {{ week }}</span>
+                {% assign week = week | plus: 1 %}
+              {% endif %}
             </h2>
             <div class="card-body">
               <p class="card-text">{{- event.description -}}&nbsp;</p>
