@@ -1,6 +1,7 @@
-- description: Bring a friend
-  date: 2023-05-07 09:00:00 +1000
-  cooking: Dynamites
+- date: 2023-05-07 09:00:00 +1000
+  week: 1
+  description: Bring a friend
+  hosting: Dynamites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -13,9 +14,9 @@
       height: 0.54
     - time: 2023-05-07 21:29:00 +1000
       height: 1.93
-- description:
-  date: 2023-05-14 09:00:00 +1000
-  cooking: Dynamites
+- date: 2023-05-14 09:00:00 +1000
+  week: 2
+  hosting: Dynamites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -28,9 +29,9 @@
       height: 1.48
     - time: 2023-05-14 22:13:00 +1000
       height: 0.69
-- description:
-  date: 2023-05-21 09:00:00 +1000
-  cooking: Dynamites
+- date: 2023-05-21 09:00:00 +1000
+  week: 3
+  hosting: Dynamites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -43,9 +44,9 @@
       height: 0.64
     - time: 2023-05-21 21:30:00 +1000
       height: 1.88
-- description:
-  date: 2023-05-28 09:00:00 +1000
-  cooking: Dynamites
+- date: 2023-05-28 09:00:00 +1000
+  week: 4
+  hosting: Dynamites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -58,9 +59,9 @@
       height: 1.31
     - time: 2023-05-28 20:57:00 +1000
       height: 0.87
-- description:
-  date: 2023-06-04 09:00:00 +1000
-  cooking: Dynamites
+- date: 2023-06-04 09:00:00 +1000
+  week: 5
+  hosting: Dynamites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -73,9 +74,9 @@
       height: 0.54
     - time: 2023-06-04 20:25:00 +1000
       height: 1.99
-- description:
-  date: 2023-06-11 09:00:00 +1000
-  cooking: Moths
+- date: 2023-06-11 09:00:00 +1000
+  week: 6
+  hosting: Moths
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -88,9 +89,10 @@
       height: 1.47
     - time: 2023-06-11 20:45:00 +1000
       height: 0.71
-- description: Interclub with Coogee Penguins Winter Swimming Club
-  date: 2023-06-18 09:00:00 +1000
-  cooking: Moths
+- date: 2023-06-18 09:00:00 +1000
+  week: 7
+  description: Interclub with Coogee Penguins Winter Swimming Club
+  hosting: Moths
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -103,9 +105,10 @@
       height: 0.63
     - time: 2023-06-18 20:28:00 +1000
       height: 1.87
-- description: Cock of the Walk
-  date: 2023-06-25 09:00:00 +1000
-  cooking: Moths
+- date: 2023-06-25 09:00:00 +1000
+  week: 8
+  description: Cock of the Walk
+  hosting: Moths
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -118,9 +121,9 @@
       height: 1.31
     - time: 2023-06-25 19:02:00 +1000
       height: 0.82
-- description:
-  date: 2023-07-02 09:00:00 +1000
-  cooking: Moths
+- date: 2023-07-02 09:00:00 +1000
+  week: 9
+  hosting: Moths
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -133,9 +136,10 @@
       height: 0.53
     - time: 2023-07-02 19:18:00 +1000
       height: 1.96
-- description: Cock of the Walk
-  date: 2023-07-09 09:00:00 +1000
-  cooking: Moths
+- date: 2023-07-09 09:00:00 +1000
+  week: 10
+  description: Cock of the Walk
+  hosting: Moths
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -148,9 +152,9 @@
       height: 1.5
     - time: 2023-07-09 19:17:00 +1000
       height: 0.63
-- description:
-  date: 2023-07-16 09:00:00 +1000
-  cooking: Luddites
+- date: 2023-07-16 09:00:00 +1000
+  week: 11
+  hosting: Luddites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -163,9 +167,9 @@
       height: 0.62
     - time: 2023-07-16 19:30:00 +1000
       height: 1.79
-- description:
-  date: 2023-07-23 09:00:00 +1000
-  cooking: Luddites
+- date: 2023-07-23 09:00:00 +1000
+  week: 12
+  hosting: Luddites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -178,9 +182,10 @@
       height: 0.69
     - time: 2023-07-23 23:45:00 +1000
       height: 1.54
-- description: Age Championships
-  date: 2023-07-30 09:00:00 +1000
-  cooking: Luddites
+- date: 2023-07-30 09:00:00 +1000
+  week: 13
+  description: Age Championships
+  hosting: Luddites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -193,9 +198,9 @@
       height: 0.55
     - time: 2023-07-30 18:09:00 +1000
       height: 1.85
-- description:
-  date: 2023-08-06 09:00:00 +1000
-  cooking: Luddites
+- date: 2023-08-06 09:00:00 +1000
+  week: 14
+  hosting: Luddites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -206,9 +211,10 @@
       height: 1.57
     - time: 2023-08-06 17:57:00 +1000
       height: 0.48
-- description: Grade Championships
-  date: 2023-08-13 09:00:00 +1000
-  cooking: Luddites
+- date: 2023-08-13 09:00:00 +1000
+  week: 15
+  description: Grade Championships
+  hosting: Luddites
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -221,9 +227,10 @@
       height: 0.63
     - time: 2023-08-13 18:31:00 +1000
       height: 1.67
-- description: Interclub with Maroubra Seals Winter Swimming Club
-  date: 2023-08-20 09:00:00 +1000
-  cooking: Maroubra Seals
+- date: 2023-08-20 09:00:00 +1000
+  week: 16
+  description: Interclub with Maroubra Seals Winter Swimming Club
+  hosting: Maroubra Seals
   location:
     name: Mahon Pool
     url: https://www.randwick.nsw.gov.au/facilities-and-recreation/beaches-and-coast/ocean-pools/mahon-pool
@@ -236,14 +243,15 @@
       height: 0.54
     - time: 2023-08-20 22:36:00 +1000
       height: 1.56
-- description: Bus trip
-  date: 2023-08-26 12:00:00 +1000
+- date: 2023-08-26 12:00:00 +1000
+  description: Bus trip
   location:
     name: Burrawang Village Hotel
     url: https://www.burrawangvillagehotel.com.au/
-- description: 100 Yards Championships
-  date: 2023-08-27 09:00:00 +1000
-  cooking: Yobbos
+- date: 2023-08-27 09:00:00 +1000
+  week: 17
+  description: 100 Yards Championships
+  hosting: Yobbos
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -256,9 +264,9 @@
       height: 1.69
     - time: 2023-08-27 23:51:00 +1000
       height: 0.4
-- description:
-  date: 2023-09-03 09:00:00 +1000
-  cooking: Yobbos
+- date: 2023-09-03 09:00:00 +1000
+  week: 18
+  hosting: Yobbos
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -271,9 +279,10 @@
       height: 0.32
     - time: 2023-09-03 22:54:00 +1000
       height: 1.64
-- description: Cock of the Walk and Knockout
-  date: 2023-09-10 09:00:00 +1000
-  cooking: Yobbos
+- date: 2023-09-10 09:00:00 +1000
+  week: 19
+  description: Cock of the Walk and Knockout
+  hosting: Yobbos
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
@@ -284,14 +293,16 @@
       height: 0.69
     - time: 2023-09-10 17:21:00 +1000
       height: 1.54
-- description: National Titles
-  date: 2023-09-17 09:00:00 +1000
+- date: 2023-09-17 09:00:00 +1000
+  week: 20
+  description: National Titles
   location:
     name: Manly Aquatic Centre
     url: https://www.northernbeaches.nsw.gov.au/things-to-do/swimming-pools/manly-aquatic-centre
-- description: Finals, 100%, and Ladies Day
-  date: 2023-09-24 09:00:00 +1000
-  cooking: Yobbos
+- date: 2023-09-24 09:00:00 +1000
+  week: 21
+  description: Finals, 100%, and Ladies Day
+  hosting: Yobbos
   location:
     name: Wylie's Baths
     url: https://wylies.com.au/
