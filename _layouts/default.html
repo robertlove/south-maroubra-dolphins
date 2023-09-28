@@ -90,7 +90,7 @@
             <li class="list-inline-item"><a class="btn btn-dark" href="{{- item.url -}}" title="{{- item.title | escape -}}" target="_blank">{% include icon.html name=item.icon %}</a></li>
           {% endfor %}
         </ul>
-        <p class="small mb-0">&copy; 2023 {{ site.title }} {{ site.subtitle }}. All rights reserved.</p>
+        <p class="small mb-0">&copy; {{ site.time | date: '%Y' }} {{ site.title }} {{ site.subtitle }}. All rights reserved.</p>
       </div>
     </footer>
     <script src="{{- '/assets/js/script.js' | relative_url -}}"></script>
