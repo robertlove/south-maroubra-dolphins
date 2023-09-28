@@ -2,43 +2,49 @@
 layout: null
 ---
 
-{% include_relative bootstrap.bundle.min.js %}
+{%- include_relative bootstrap.bundle.min.js -%}
+{%- assign events = site.data.events -%}
+{% assign next_year = site.data.events.last.date | date: '%Y' | plus: 1 %}
 
-const events = [{% for event in site.data.events %}
-  {
-    date: "{{- event.date | date: site.date_format -}}",
-    datetime: "{{- event.date | date: '%FT%T.%L%z' -}}",
-    description: {% if event.description %}"{{- event.description | escape -}}"{% else %}null{% endif %},
-    location: "{{- event.location.name | escape -}}",
-    url: "{{- '/events' | relative_url -}}#{{- event.date | date: '%F' -}}"
-  }{% unless forloop.last %},{% endunless %}
-{% endfor %}];
+const nextEvent = document.getElementById('next-event');
 
-  const nextEvent = document.getElementById('next-event');
+if (nextEvent) {
 
-  if (nextEvent) {
+  const events = [{% for event in events %}
+    {
+      date: "{{- event.date | date: site.date_format | replace: '  ', ' ' -}}",
+      datetime: "{{- event.date | date: '%FT%T.%L%z' -}}",
+      description: {% if event.description %}"{{- event.description | escape -}}"{% else %}null{% endif %},
+      location: "{{- event.location.name | escape -}}",
+      url: "{{- '/events' | relative_url -}}#{{- event.date | date: '%F' -}}"
+    }{% unless forloop.last %},{%- endunless -%}
+  {% endfor %}
+  ];
 
-    const now = Date.now();
-    let html = 'There are no upcoming events at this time.';
+  const now = Date.now();
 
-    for (const i in events) {
+  let html = `There are no upcoming events at this time. Come <a href="{{- '/' | relative_url -}}#membership" class="text-reset fs-6">join us</a> for the {{ next_year }} winter swimming season.`;
 
-      let event = events[i];
-      let datetime = Date.parse(event.datetime);
+  for (const i in events) {
 
-      if (datetime >= now) {
+    let event = events[i];
+    let datetime = Date.parse(event.datetime);
 
-        text = '';
+    if (datetime >= now) {
 
-        if (event.description) {
-          text = `${event.description} on `;
-        }
+      text = '';
 
-        text += `${event.date} at ${event.location}`;
-        html = `<a href="${event.url}" class="text-reset fs-6">${text}</a>`;
-        nextEvent.innerHTML = html;
-        break;
-
+      if (event.description) {
+        text = `${event.description} on `;
       }
+
+      text += `${event.date} at ${event.location}`;
+      html = `<a href="${event.url}" class="text-reset fs-6">${text}</a>`;
+      break;
+
     }
   }
+
+  nextEvent.innerHTML = html;
+
+}
