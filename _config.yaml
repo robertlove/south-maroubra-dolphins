@@ -10,6 +10,8 @@ date_format: "%A, %e %B %Y"
 time_format: "%l:%M %P"
 theme_color: "#7DC7E9"
 
+theme: paraqeet
+
 defaults:
   - scope:
       path: ""
@@ -20,8 +22,6 @@ plugins:
   - jekyll-redirect-from
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - Rakefile
   - README.md
