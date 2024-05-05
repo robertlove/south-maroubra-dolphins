@@ -28,8 +28,5 @@ exclude:
 
 permalink: /:title
 
-sass:
-  style: :compressed
-
 redirect_from:
   json: false
