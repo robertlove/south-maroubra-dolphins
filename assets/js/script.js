@@ -2,7 +2,6 @@
 layout: null
 ---
 
-{%- include_relative bootstrap.bundle.min.js -%}
 {%- assign events = site.data.events -%}
 {% assign next_year = site.data.events.last.date | date: '%Y' | plus: 1 %}
 

@@ -68,7 +68,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="{{- '/' | relative_url -}}">
             <img src="{{- '/assets/img/icon.svg' | relative_url -}}" alt="{{- site.title -}}" width="45" height="45" class="d-inline-block align-text-middle me-2">
-            {{- site.title -}}
+            {{ site.title }}
           </a>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
@@ -93,6 +93,7 @@
         <p class="small mb-0">&copy; {{ site.time | date: '%Y' }} {{ site.title }} {{ site.subtitle }}. All rights reserved.</p>
       </div>
     </footer>
+    <script src="{{- '/assets/js/bootstrap.bundle.min.js' | relative_url -}}"></script>
     <script src="{{- '/assets/js/script.js' | relative_url -}}"></script>
   </body>
 </html>
