@@ -21,24 +21,23 @@ description: South Maroubra Dolphins Winter Swimming Club calendar of events
             <div class="card-body">
               <p class="card-text">{%- if event.description -%}{{- event.description -}}{%- else -%}&nbsp;{%- endif -%}</p>
               <table class="table">
-                <head>
+                <thead>
                   <tr>
                     <th>{% include icon.html name='geo-alt' class='me-1' %} <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a></th>
                     <th>{%- if event.hosting -%}{% include icon.html name='people' class='me-1' %} {{ event.hosting }}{%- endif -%}</th>
                   </tr>
-                </head>
+                </thead>
                 {% if event.tides %}
                   <tbody class="table-group-divider">
                     {% for tide in event.tides %}
-                      {% assign tide_height_slice = tide.height | slice: 0 | strip %}
-                      {% if tide_height_slice == "0" %}
+                      {% if tide.description == 'Low' %}
                         {% assign icon_name = 'arrow-down-circle' %}
                         {% assign icon_class = 'text-danger me-1' %}
                       {% else %}
                         {% assign icon_name = 'arrow-up-circle' %}
                         {% assign icon_class = 'text-success me-1' %}
                       {% endif %}
-                      <tr{% if forloop.index == 2 %} class="bg-light fw-bold"{% endif %}>
+                      <tr{% if tide.closest %} class="bg-light fw-bold"{% endif %}>
                         <td>{% include icon.html name='clock' class='me-1' %} {{ tide.time | date: site.time_format }}</td>
                         <td>{% include icon.html name=icon_name class=icon_class %}<i class="{{ class }} me-1"></i> <span class="font-monospace">{{ tide.height }}</span>m</td>
                       </tr>
@@ -46,6 +45,9 @@ description: South Maroubra Dolphins Winter Swimming Club calendar of events
                   </tbody>
                 {% endif %}
               </table>
+              {% if event.location.image %}
+                <img class="img-fluid" alt="{{- event.location.name -}}" src="{{- '/assets/img/' | append: event.location.image | relative_url -}}">
+              {% endif %}
             </div>
           </div>
         </div>
