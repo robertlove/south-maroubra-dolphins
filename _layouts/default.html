@@ -42,57 +42,7 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top bg-body border-bottom shadow-sm">
-      <div class="container">
-        <a class="navbar-brand" href="{{- '/' | relative_url -}}">
-          <img src="{{- '/assets/img/icon.svg' | relative_url -}}" alt="{{- site.title -}}" width="45" height="45" class="d-inline-block align-text-middle me-2">
-          {{- site.title -}}
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav ms-auto">
-            {% for item in site.data.navigation %}
-              <li class="nav-item me-3">
-                <a class="nav-link{% if page.url == item.navbar_url %} active{% endif %}" href="{{- item.navbar_url | relative_url -}}">{{- item.title -}}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </nav>
     {{ content }}
-    <nav class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas">
-      <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="{{- '/' | relative_url -}}">
-            <img src="{{- '/assets/img/icon.svg' | relative_url -}}" alt="{{- site.title -}}" width="45" height="45" class="d-inline-block align-text-middle me-2">
-            {{ site.title }}
-          </a>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-      </nav>
-      <div class="offcanvas-body">
-        <ul class="nav flex-column">
-          {% for item in site.data.navigation %}
-            <li class="nav-item">
-              <a class="nav-link{% if page.url == item.offcanvas_url %} active{% endif %}" href="{{- item.offcanvas_url | relative_url -}}">{{- item.title -}}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </nav>
-    <footer class="py-5 bg-body-tertiary border-top">
-      <div class="container">
-        <ul class="list-inline">
-          {% for item in site.data.social %}
-            <li class="list-inline-item"><a class="btn btn-dark" href="{{- item.url -}}">{% include icon.html name=item.icon %}</a></li>
-          {% endfor %}
-        </ul>
-        <p class="small mb-0">&copy; {{ site.time | date: '%Y' }} {{ site.title }} {{ site.subtitle }}. All rights reserved.</p>
-      </div>
-    </footer>
     <script src="{{- '/assets/js/bootstrap.bundle.min.js' | relative_url -}}"></script>
     <script src="{{- '/assets/js/script.js' | relative_url -}}"></script>
   </body>
