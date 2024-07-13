@@ -1,0 +1,39 @@
+---
+title: Events (Printable)
+description: South Maroubra Dolphins Winter Swimming Club printable calendar of events
+layout: default
+permalink: /events/print
+---
+
+<table class="table table-bordered vh-100">
+  <tbody>
+    {%- tablerow event in site.data.events cols:4 -%}
+      <h2 class="h6 text-uppercase">{{- event.date | date: '%e %b %Y' | strip -}}</h2>
+      <p>
+        {%- if event.description -%}
+          {{- event.description | truncate: 20 -}}
+        {%- else -%}
+          &nbsp;
+        {%- endif -%}
+      </p>
+      <p class="m-0">
+        {%- if event.hosting -%}
+          {{- event.hosting -}}
+        {%- else -%}
+          &nbsp;
+        {%- endif -%}
+      </p>
+      <p class="m-0 small">
+        {%- if event.tides -%}
+          {%- for tide in event.tides -%}
+            {%- if tide.closest -%}
+              {{- tide.description }} {{ tide.time | date: site.time_format -}}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- else -%}
+          &nbsp;
+        {%- endif -%}
+      </p>
+    {%- endtablerow -%}
+  </tbody>
+</table>
