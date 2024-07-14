@@ -26,7 +26,7 @@ permalink: /events/print
         <h2 class="h6 text-uppercase">{{- event.date | date: '%e %b %Y' | strip -}}</h2>
         <p>
           {%- if event.description -%}
-            {{- event.description }} @ {{ event.location.name -}}
+            {{- event.description }} at {{ event.location.name -}}
           {%- else -%}
             {{- event.location.name -}}
           {%- endif -%}
