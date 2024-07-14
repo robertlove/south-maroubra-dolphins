@@ -6,13 +6,8 @@ permalink: /events/print
 ---
 
 <style>
-  .table-bordered>:not(caption)>* {
-    border-width: 4px 0;
-    border-color: #000;
-  }
-  .table-bordered>:not(caption)>*>* {
-    border-width: 0 4px;
-    border-color: #000;
+  tr, td {
+    border: 1px solid #000 !important;
   }
   td {
     width: 25%;
@@ -25,15 +20,15 @@ permalink: /events/print
 </header>
 
 <main>
-  <table class="table table-bordered vh-100">
+  <table class="table table-bordered m-0 vh-100">
     <tbody>
       {%- tablerow event in site.data.events cols:4 -%}
         <h2 class="h6 text-uppercase">{{- event.date | date: '%e %b %Y' | strip -}}</h2>
         <p>
           {%- if event.description -%}
-            {{- event.description -}}
+            {{- event.description }} @ {{ event.location.name -}}
           {%- else -%}
-            &nbsp;
+            {{- event.location.name -}}
           {%- endif -%}
         </p>
         <p>
