@@ -12,7 +12,6 @@ if (nextEvent) {
   const events = [{% for event in events %}
     {
       date: "{{- event.date | date: site.date_format | replace: '  ', ' ' -}}",
-      time: "{{- event.date | date: site.time_format | strip -}}",
       datetime: "{{- event.date | date: '%FT%T.%L%z' -}}",
       description: {% if event.description %}"{{- event.description | escape -}}"{% else %}null{% endif %},
       location: "{{- event.location.name | escape -}}",
@@ -35,10 +34,10 @@ if (nextEvent) {
       text = '';
 
       if (event.description) {
-        text = `${event.description} at `;
+        text = `${event.description} on `;
       }
 
-      text += `${event.time} on ${event.date} at ${event.location}`;
+      text += `${event.date} at ${event.location}`;
       html = `<a href="${event.url}" class="text-reset fs-6">${text}</a>`;
       break;
 
