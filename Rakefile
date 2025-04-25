@@ -3,5 +3,6 @@ task :clean do
   sh "rm -rf .bundle"
   sh "rm -rf .cache"
   sh "rm -rf .jekyll-cache"
+  sh "rm -rf .local"
   sh "rm -rf Gemfile.lock"
 end
