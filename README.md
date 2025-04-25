@@ -16,7 +16,7 @@ bundle exec jekyll serve
 ### With Docker
 
 ```shell
-docker run -p 4000:4000 -v $(pwd):/home/jekyll -w /home/jekyll -it --entrypoint /bin/bash jekyll/jekyll:3
+docker run -p 4000:4000 -v $(pwd):/home/jekyll -w /home/jekyll -it --entrypoint /bin/bash jekyll/jekyll:4.2.2
 bundle
 jekyll build
 jekyll serve
