@@ -4,4 +4,5 @@ _site
 .DS_Store
 .jekyll-cache
 .jekyll-metadata
+.local
 .sass-cache
