@@ -58,24 +58,14 @@ layout: home
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th scope="row">Membership</th>
-              <td class="text-end">$25.00</td>
-              <td class="text-end">$5.00</td>
-              <td class="small fst-italic text-body-secondary">(under 18)</td>
-            </tr>
-            <tr>
-              <th scope="row">Swim</th>
-              <td class="text-end">$6.00</td>
-              <td class="text-end">$2.00</td>
-              <td class="small fst-italic text-body-secondary">(under 18)</td>
-            </tr>
-            <tr>
-              <th scope="row">Lunch</th>
-              <td class="text-end">$8.00</td>
-              <td class="text-end">$3.00</td>
-              <td class="small fst-italic text-body-secondary">(under 15)</td>
-            </tr>
+            {% for price in site.data.prices %}
+              <tr>
+                <th scope="row">{{ price.name }}</th>
+                <td class="text-end">${{ price.adult }}.00</td>
+                <td class="text-end">${{ price.child }}.00</td>
+                <td class="small fst-italic text-body-secondary">(under {{ price.child_under }})</td>
+              </tr>
+            {% endfor %}
           </tbody>
         </table>
       </div>

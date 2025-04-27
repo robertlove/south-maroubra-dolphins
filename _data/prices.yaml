@@ -1,0 +1,12 @@
+- name: Membership
+  adult: 25
+  child: 5
+  child_under: 18
+- name: Swim
+  adult: 6
+  child: 2
+  child_under: 18
+- name: Lunch
+  adult: 8
+  child: 3
+  child_under: 15
