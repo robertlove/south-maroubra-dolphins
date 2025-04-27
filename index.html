@@ -9,7 +9,7 @@ layout: home
     <h2>About {{ site.title }}</h2>
     <div class="row row-cols-1 row-cols-lg-2">
       <div class="col">
-        <p class="lead">The {{ site.title }} {{ site.subtitle }} was founded at <a href="https://wylies.com.au/">Wylie's Baths</a> in the winter months of 1960 as an off-season activity for the members of the <a href="https://www.southmaroubrasurfclub.com.au/">South Maroubra Surf Lifesaving Club</a>. These days, the club is open to everyone and each year welcomes both new and old members of all ages and swimming abilities.</p>
+        <p class="lead">The {{ site.title }} {{ site.subtitle }} was founded at <a href="https://wylies.com.au/" target="_blank">Wylie's Baths</a> in the winter months of 1960 as an off-season activity for the members of the <a href="https://www.southmaroubrasurfclub.com.au/" target="_blank">South Maroubra Surf Lifesaving Club</a>. These days, the club is open to everyone and each year welcomes both new and old members of all ages and swimming abilities.</p>
         <p>The pool's position on the southern headland of Coogee makes it ideal for winter swimming as it faces North and is protected from the prevailing southerly and westerly winter winds.</p>
         <p><a href="{{ '/events' | relative_url }}">Events</a> commence for all standards of swimmers at 8:30 am every Sunday from the first Sunday in May to mid September. Everyone is catered for with handicap races over 50, 100, 200, and 400 yards (45.72, 91.44, 182.88, and 365.76 meters).</p>
         <p>Each week there is a keenly contested relay and, throughout the season, speciality events such as Cock of the Walk, Knockout, monthly and seasonal point scores, and grade and age championships.</p>
@@ -32,7 +32,7 @@ layout: home
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
       {% for supporter in site.data.supporters %}
         <div class="col mb-5 d-flex justify-content-center align-items-center">
-          <a href="{{- supporter.url -}}">
+          <a href="{{- supporter.url -}}" target="_blank">
             <img src="{{- '/assets/img/' | append: supporter.image | relative_url -}}" class="img-fluid" alt="{{- supporter.title | escape -}}">
           </a>
         </div>
@@ -47,7 +47,7 @@ layout: home
     <div class="row row-cols-1 row-cols-lg-2">
       <div class="col">
         <p class="lead">The {{ site.title }} {{ site.subtitle }} welcomes new members of all ages and swimming abilities.</p>
-        <p>Joining is easy. If you're interested in becoming a member, just come down and see us at <a href="https://wylies.com.au/">Wylie's Baths</a> at 8:30 am on the first Sunday in May. Alternatively, you can send an email to <a href="mailto:admin@southmaroubradolphins.com">admin@southmaroubradolphins.com</a> for more information.</p>
+        <p>Joining is easy. If you're interested in becoming a member, just come down and see us at <a href="https://wylies.com.au/" target="_blank">Wylie's Baths</a> at 8:30 am on the first Sunday in May. Alternatively, you can send an email to <a href="mailto:admin@southmaroubradolphins.com">admin@southmaroubradolphins.com</a> for more information.</p>
         <table class="table">
           <thead>
             <tr>

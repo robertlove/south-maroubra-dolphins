@@ -24,7 +24,7 @@ layout: single
               <table class="table">
                 <thead>
                   <tr>
-                    <th>{% include icon.html name='geo-alt' class='me-1' %} <a href="{{ event.location.url }}">{{ event.location.name }}</a></th>
+                    <th>{% include icon.html name='geo-alt' class='me-1' %} <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a></th>
                     <th>{%- if event.hosting -%}{% include icon.html name='cup-hot' class='me-1' %} {{ event.hosting }}{%- endif -%}</th>
                   </tr>
                 </thead>
