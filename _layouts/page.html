@@ -47,7 +47,7 @@ layout: default
   <div class="container">
     <ul class="list-inline">
       {% for item in site.data.social %}
-        <li class="list-inline-item"><a class="btn btn-dark" href="{{- item.url -}}">{% include icon.html name=item.icon %}</a></li>
+        <li class="list-inline-item"><a class="btn btn-primary" href="{{- item.url -}}" target="_blank">{% include icon.html name=item.icon %}</a></li>
       {% endfor %}
     </ul>
     <p class="small mb-0">&copy; {{ site.time | date: '%Y' }} {{ site.title }} {{ site.subtitle }}. All rights reserved.</p>
