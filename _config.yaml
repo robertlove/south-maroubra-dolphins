@@ -22,3 +22,6 @@ permalink: /:title
 
 redirect_from:
   json: false
+
+sass:
+  style: :compressed
