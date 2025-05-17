@@ -69,77 +69,77 @@
       description: Low
       closest: false
 
-# - date: 2025-05-25 08:30:00 +1000
-#   week: 4
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-05-25 00:17:00 +1000
-#       height: 0.48
-#       description: Low
-#       closest: false
-#     - time: 2025-05-25 06:15:00 +1000
-#       height: 1.61
-#       description: High
-#       closest: true
-#     - time: 2025-05-25 12:15:00 +1000
-#       height: 0.43
-#       description: Low
-#       closest: false
-#     - time: 2025-05-25 18:45:00 +1000
-#       height: 1.96
-#       description: High
-#       closest: false
-#
-# - date: 2025-06-01 08:30:00 +1000
-#   week: 5
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-06-01 06:53:00 +1000
-#       height: 0.50
-#       description: Low
-#       closest: true
-#     - time: 2025-06-01 12:56:00 +1000
-#       height: 1.32
-#       description: High
-#       closest: false
-#     - time: 2025-06-01 18:19:00 +1000
-#       height: 0.78
-#       description: Low
-#       closest: false
-#
-# - date: 2025-06-08 08:30:00 +1000
-#   week: 6
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-06-08 00:26:00 +1000
-#       height: 0.68
-#       description: Low
-#       closest: false
-#     - time: 2025-06-08 06:05:00 +1000
-#       height: 1.35
-#       description: High
-#       closest: true
-#     - time: 2025-06-08 11:50:00 +1000
-#       height: 0.65
-#       description: Low
-#       closest: false
-#     - time: 2025-06-08 18:30:00 +1000
-#       height: 1.72
-#       description: High
-#       closest: false
-#
+- date: 2025-05-25 08:30:00 +1000
+  week: 4
+  description:
+  hosting:
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-05-25 00:17:00 +1000
+      height: 0.48
+      description: Low
+      closest: false
+    - time: 2025-05-25 06:15:00 +1000
+      height: 1.61
+      description: High
+      closest: true
+    - time: 2025-05-25 12:15:00 +1000
+      height: 0.43
+      description: Low
+      closest: false
+    - time: 2025-05-25 18:45:00 +1000
+      height: 1.96
+      description: High
+      closest: false
+
+- date: 2025-06-01 08:30:00 +1000
+  week: 5
+  description:
+  hosting:
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-06-01 06:53:00 +1000
+      height: 0.50
+      description: Low
+      closest: true
+    - time: 2025-06-01 12:56:00 +1000
+      height: 1.32
+      description: High
+      closest: false
+    - time: 2025-06-01 18:19:00 +1000
+      height: 0.78
+      description: Low
+      closest: false
+
+- date: 2025-06-08 08:30:00 +1000
+  week: 6
+  description:
+  hosting:
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-06-08 00:26:00 +1000
+      height: 0.68
+      description: Low
+      closest: false
+    - time: 2025-06-08 06:05:00 +1000
+      height: 1.35
+      description: High
+      closest: true
+    - time: 2025-06-08 11:50:00 +1000
+      height: 0.65
+      description: Low
+      closest: false
+    - time: 2025-06-08 18:30:00 +1000
+      height: 1.72
+      description: High
+      closest: false
+
 # - date: 2025-06-15 08:30:00 +1000
 #   week: 7
 #   description:
