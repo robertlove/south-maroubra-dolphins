@@ -1,6 +1,6 @@
 - date: 2025-05-04 08:30:00 +1000
   week: 1
-  description: Bring a friend and/or an old Dolphin
+  description: null
   hosting: Dynamites
   location:
     name: Wylies Baths
@@ -25,7 +25,7 @@
 
 - date: 2025-05-11 08:30:00 +1000
   week: 2
-  description:
+  description: null
   hosting: Dynamites
   location:
     name: Wylies Baths
@@ -50,7 +50,7 @@
 
 - date: 2025-05-18 08:30:00 +1000
   week: 3
-  description:
+  description: null
   hosting: Dynamites
   location:
     name: Wylies Baths
@@ -71,8 +71,8 @@
 
 - date: 2025-05-25 08:30:00 +1000
   week: 4
-  description:
-  hosting:
+  description: null
+  hosting: Dynamites
   location:
     name: Wylies Baths
     url: https://wylies.com.au
@@ -96,8 +96,8 @@
 
 - date: 2025-06-01 08:30:00 +1000
   week: 5
-  description:
-  hosting:
+  description: Knockout
+  hosting: Dynamites
   location:
     name: Wylies Baths
     url: https://wylies.com.au
@@ -117,8 +117,8 @@
 
 - date: 2025-06-08 08:30:00 +1000
   week: 6
-  description:
-  hosting:
+  description: Cock of the Walk
+  hosting: Yobbos
   location:
     name: Wylies Baths
     url: https://wylies.com.au
@@ -140,390 +140,381 @@
       description: High
       closest: false
 
-# - date: 2025-06-15 08:30:00 +1000
-#   week: 7
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-06-15 05:11:00 +1000
-#       height: 0.50
-#       description: Low
-#       closest: false
-#     - time: 2025-06-15 11:08:00 +1000
-#       height: 1.32
-#       description: High
-#       closest: true
-#     - time: 2025-06-15 16:30:00 +1000
-#       height: 0.70
-#       description: Low
-#       closest: false
-#     - time: 2025-06-15 23:03:00 +1000
-#       height: 1.81
-#       description: High
-#       closest: false
-#
-# - date: 2025-06-22 08:30:00 +1000
-#   week: 8
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-06-22 04:58:00 +1000
-#       height: 1.45
-#       description: High
-#       closest: false
-#     - time: 2025-06-22 10:53:00 +1000
-#       height: 0.51
-#       description: Low
-#       closest: true
-#     - time: 2025-06-22 17:30:00 +1000
-#       height: 1.86
-#       description: High
-#       closest: false
-#
-# - date: 2025-06-29 08:30:00 +1000
-#   week: 9
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-06-29 05:26:00 +1000
-#       height: 0.41
-#       description: Low
-#       closest: false
-#     - time: 2025-06-29 11:28:00 +1000
-#       height: 1.37
-#       description: High
-#       closest: true
-#     - time: 2025-06-29 16:58:00 +1000
-#       height: 0.65
-#       description: Low
-#       closest: false
-#     - time: 2025-06-29 23:22:00 +1000
-#       height: 1.80
-#       description: High
-#       closest: false
-#
-# - date: 2025-07-06 08:30:00 +1000
-#   week: 10
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-07-06 04:40:00 +1000
-#       height: 1.23
-#       description: High
-#       closest: false
-#     - time: 2025-07-06 10:24:00 +1000
-#       height: 0.69
-#       description: Low
-#       closest: true
-#     - time: 2025-07-06 17:13:00 +1000
-#       height: 1.61
-#       description: High
-#       closest: false
-#
-# - date: 2025-07-13 08:30:00 +1000
-#   week: 11
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-07-13 04:04:00 +1000
-#       height: 0.38
-#       description: Low
-#       closest: false
-#     - time: 2025-07-13 10:00:00 +1000
-#       height: 1.38
-#       description: High
-#       closest: true
-#     - time: 2025-07-13 15:31:00 +1000
-#       height: 0.56
-#       description: Low
-#       closest: false
-#     - time: 2025-07-13 22:02:00 +1000
-#       height: 1.89
-#       description: High
-#       closest: false
-#
-# - date: 2025-07-20 08:30:00 +1000
-#   week: 12
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-07-20 03:36:00 +1000
-#       height: 1.31
-#       description: High
-#       closest: false
-#     - time: 2025-07-20 09:30:00 +1000
-#       height: 0.57
-#       description: Low
-#       closest: true
-#     - time: 2025-07-20 16:14:00 +1000
-#       height: 1.73
-#       description: High
-#       closest: false
-#     - time: 2025-07-20 23:05:00 +1000
-#       height: 0.55
-#       description: Low
-#       closest: false
-#
-# - date: 2025-07-27 08:30:00 +1000
-#   week: 13
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-07-27 04:08:00 +1000
-#       height: 0.33
-#       description: Low
-#       closest: false
-#     - time: 2025-07-27 10:09:00 +1000
-#       height: 1.42
-#       description: High
-#       closest: true
-#     - time: 2025-07-27 15:46:00 +1000
-#       height: 0.52
-#       description: Low
-#       closest: false
-#     - time: 2025-07-27 22:10:00 +1000
-#       height: 1.82
-#       description: High
-#       closest: false
-#
-# - date: 2025-08-03 08:30:00 +1000
-#   week: 14
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-08-03 02:51:00 +1000
-#       height: 1.15
-#       description: High
-#       closest: false
-#     - time: 2025-08-03 08:40:00 +1000
-#       height: 0.71
-#       description: Low
-#       closest: true
-#     - time: 2025-08-03 15:36:00 +1000
-#       height: 1.49
-#       description: High
-#       closest: false
-#     - time: 2025-08-03 22:35:00 +1000
-#       height: 0.73
-#       description: Low
-#       closest: false
-#
-# - date: 2025-08-10 08:30:00 +1000
-#   week: 15
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-08-10 02:58:00 +1000
-#       height: 0.28
-#       description: Low
-#       closest: false
-#     - time: 2025-08-10 08:54:00 +1000
-#       height: 1.43
-#       description: High
-#       closest: true
-#     - time: 2025-08-10 14:31:00 +1000
-#       height: 0.43
-#       description: Low
-#       closest: false
-#     - time: 2025-08-10 21:00:00 +1000
-#       height: 1.91
-#       description: High
-#       closest: false
-#
-# - date: 2025-08-17 08:30:00 +1000
-#   week: 16
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-08-17 02:13:00 +1000
-#       height: 1.23
-#       description: High
-#       closest: false
-#     - time: 2025-08-17 08:03:00 +1000
-#       height: 0.60
-#       description: Low
-#       closest: true
-#     - time: 2025-08-17 14:50:00 +1000
-#       height: 1.65
-#       description: High
-#       closest: false
-#     - time: 2025-08-17 21:49:00 +1000
-#       height: 0.56
-#       description: Low
-#       closest: false
-#
-# - date: 2025-08-24 08:30:00 +1000
-#   week: 17
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-08-24 02:57:00 +1000
-#       height: 0.29
-#       description: Low
-#       closest: false
-#     - time: 2025-08-24 08:58:00 +1000
-#       height: 1.46
-#       description: High
-#       closest: true
-#     - time: 2025-08-24 14:44:00 +1000
-#       height: 0.43
-#       description: Low
-#       closest: false
-#     - time: 2025-08-24 21:03:00 +1000
-#       height: 1.77
-#       description: High
-#       closest: false
-#
-# - date: 2025-08-31 08:30:00 +1000
-#   week: 18
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-08-31 01:01:00 +1000
-#       height: 1.14
-#       description: High
-#       closest: false
-#     - time: 2025-08-31 06:45:00 +1000
-#       height: 0.70
-#       description: Low
-#       closest: true
-#     - time: 2025-08-31 13:39:00 +1000
-#       height: 1.44
-#       description: High
-#       closest: false
-#     - time: 2025-08-31 20:37:00 +1000
-#       height: 0.72
-#       description: Low
-#       closest: false
-#
-# - date: 2025-09-07 08:30:00 +1000
-#   week: 19
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-09-07 01:46:00 +1000
-#       height: 0.26
-#       description: Low
-#       closest: false
-#     - time: 2025-09-07 07:45:00 +1000
-#       height: 1.47
-#       description: High
-#       closest: true
-#     - time: 2025-09-07 13:30:00 +1000
-#       height: 0.37
-#       description: Low
-#       closest: false
-#     - time: 2025-09-07 19:53:00 +1000
-#       height: 1.87
-#       description: High
-#       closest: false
-#
-# - date: 2025-09-14 08:30:00 +1000
-#   week: 20
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-09-14 00:59:00 +1000
-#       height: 1.23
-#       description: High
-#       closest: false
-#     - time: 2025-09-14 06:40:00 +1000
-#       height: 0.60
-#       description: Low
-#       closest: true
-#     - time: 2025-09-14 13:22:00 +1000
-#       height: 1.66
-#       description: High
-#       closest: false
-#     - time: 2025-09-14 20:25:00 +1000
-#       height: 0.51
-#       description: Low
-#       closest: false
-#
-# - date: 2025-09-21 08:30:00 +1000
-#   week: 21
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-09-21 01:47:00 +1000
-#       height: 0.33
-#       description: Low
-#       closest: false
-#     - time: 2025-09-21 07:53:00 +1000
-#       height: 1.51
-#       description: High
-#       closest: true
-#     - time: 2025-09-21 13:47:00 +1000
-#       height: 0.42
-#       description: Low
-#       closest: false
-#     - time: 2025-09-21 20:00:00 +1000
-#       height: 1.67
-#       description: High
-#       closest: false
-#
-# - date: 2025-09-28 08:30:00 +1000
-#   week: 22
-#   description:
-#   hosting: TEAM
-#   location:
-#     name: Wylies Baths
-#     url: https://wylies.com.au
-#   tides:
-#     - time: 2025-09-28 05:15:00 +1000
-#       height: 0.66
-#       description: Low
-#       closest: false
-#     - time: 2025-09-28 11:57:00 +1000
-#       height: 1.51
-#       description: High
-#       closest: true
-#     - time: 2025-09-28 18:47:00 +1000
-#       height: 0.64
-#       description: Low
-#       closest: false
+- date: 2025-06-15 08:30:00 +1000
+  week: 7
+  description: null
+  hosting: Yobbos
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-06-15 05:11:00 +1000
+      height: 0.50
+      description: Low
+      closest: false
+    - time: 2025-06-15 11:08:00 +1000
+      height: 1.32
+      description: High
+      closest: true
+    - time: 2025-06-15 16:30:00 +1000
+      height: 0.70
+      description: Low
+      closest: false
+    - time: 2025-06-15 23:03:00 +1000
+      height: 1.81
+      description: High
+      closest: false
+
+- date: 2025-06-22 08:30:00 +1000
+  week: 8
+  description: Knockout
+  hosting: Yobbos
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-06-22 04:58:00 +1000
+      height: 1.45
+      description: High
+      closest: false
+    - time: 2025-06-22 10:53:00 +1000
+      height: 0.51
+      description: Low
+      closest: true
+    - time: 2025-06-22 17:30:00 +1000
+      height: 1.86
+      description: High
+      closest: false
+
+- date: 2025-06-29 08:30:00 +1000
+  week: 9
+  description: null
+  hosting: Yobbos
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-06-29 05:26:00 +1000
+      height: 0.41
+      description: Low
+      closest: false
+    - time: 2025-06-29 11:28:00 +1000
+      height: 1.37
+      description: High
+      closest: true
+    - time: 2025-06-29 16:58:00 +1000
+      height: 0.65
+      description: Low
+      closest: false
+    - time: 2025-06-29 23:22:00 +1000
+      height: 1.80
+      description: High
+      closest: false
+
+- date: 2025-07-06 08:30:00 +1000
+  week: 10
+  description: Cock of the Walk
+  hosting: Yobbos
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-07-06 04:40:00 +1000
+      height: 1.23
+      description: High
+      closest: false
+    - time: 2025-07-06 10:24:00 +1000
+      height: 0.69
+      description: Low
+      closest: true
+    - time: 2025-07-06 17:13:00 +1000
+      height: 1.61
+      description: High
+      closest: false
+
+- date: 2025-07-13 08:30:00 +1000
+  week: 11
+  description: null
+  hosting: Moths
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-07-13 04:04:00 +1000
+      height: 0.38
+      description: Low
+      closest: false
+    - time: 2025-07-13 10:00:00 +1000
+      height: 1.38
+      description: High
+      closest: true
+    - time: 2025-07-13 15:31:00 +1000
+      height: 0.56
+      description: Low
+      closest: false
+    - time: 2025-07-13 22:02:00 +1000
+      height: 1.89
+      description: High
+      closest: false
+
+- date: 2025-07-20 08:30:00 +1000
+  week: 12
+  description: Age Championships
+  hosting: Moths
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-07-20 03:36:00 +1000
+      height: 1.31
+      description: High
+      closest: false
+    - time: 2025-07-20 09:30:00 +1000
+      height: 0.57
+      description: Low
+      closest: true
+    - time: 2025-07-20 16:14:00 +1000
+      height: 1.73
+      description: High
+      closest: false
+    - time: 2025-07-20 23:05:00 +1000
+      height: 0.55
+      description: Low
+      closest: false
+
+- date: 2025-07-27 08:30:00 +1000
+  week: 13
+  description: null
+  hosting: Moths
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-07-27 04:08:00 +1000
+      height: 0.33
+      description: Low
+      closest: false
+    - time: 2025-07-27 10:09:00 +1000
+      height: 1.42
+      description: High
+      closest: true
+    - time: 2025-07-27 15:46:00 +1000
+      height: 0.52
+      description: Low
+      closest: false
+    - time: 2025-07-27 22:10:00 +1000
+      height: 1.82
+      description: High
+      closest: false
+
+- date: 2025-08-03 08:30:00 +1000
+  week: 14
+  description: Grade Championships
+  hosting: Moths
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-08-03 02:51:00 +1000
+      height: 1.15
+      description: High
+      closest: false
+    - time: 2025-08-03 08:40:00 +1000
+      height: 0.71
+      description: Low
+      closest: true
+    - time: 2025-08-03 15:36:00 +1000
+      height: 1.49
+      description: High
+      closest: false
+    - time: 2025-08-03 22:35:00 +1000
+      height: 0.73
+      description: Low
+      closest: false
+
+- date: 2025-08-10 08:30:00 +1000
+  week: 15
+  description: Interclub with Maroubra Seals Winter Swimming Club
+  hosting: Seals
+  location:
+    name: Mahon Pool
+    url: https://www.randwick.nsw.gov.au/facilities-and-recreation/beaches-and-coast/ocean-pools/mahon-pool
+  tides:
+    - time: 2025-08-10 02:58:00 +1000
+      height: 0.28
+      description: Low
+      closest: false
+    - time: 2025-08-10 08:54:00 +1000
+      height: 1.43
+      description: High
+      closest: true
+    - time: 2025-08-10 14:31:00 +1000
+      height: 0.43
+      description: Low
+      closest: false
+    - time: 2025-08-10 21:00:00 +1000
+      height: 1.91
+      description: High
+      closest: false
+
+- date: 2025-08-17 08:30:00 +1000
+  week: 16
+  description: 100 Yards Championships
+  hosting: Luddites
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-08-17 02:13:00 +1000
+      height: 1.23
+      description: High
+      closest: false
+    - time: 2025-08-17 08:03:00 +1000
+      height: 0.60
+      description: Low
+      closest: true
+    - time: 2025-08-17 14:50:00 +1000
+      height: 1.65
+      description: High
+      closest: false
+    - time: 2025-08-17 21:49:00 +1000
+      height: 0.56
+      description: Low
+      closest: false
+
+- date: 2025-08-24 08:30:00 +1000
+  week: 17
+  description: null
+  hosting: Luddites
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-08-24 02:57:00 +1000
+      height: 0.29
+      description: Low
+      closest: false
+    - time: 2025-08-24 08:58:00 +1000
+      height: 1.46
+      description: High
+      closest: true
+    - time: 2025-08-24 14:44:00 +1000
+      height: 0.43
+      description: Low
+      closest: false
+    - time: 2025-08-24 21:03:00 +1000
+      height: 1.77
+      description: High
+      closest: false
+
+- date: 2025-08-31 08:30:00 +1000
+  week: 18
+  description: Cock of the Walk or Knockout
+  hosting: Luddites
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-08-31 01:01:00 +1000
+      height: 1.14
+      description: High
+      closest: false
+    - time: 2025-08-31 06:45:00 +1000
+      height: 0.70
+      description: Low
+      closest: true
+    - time: 2025-08-31 13:39:00 +1000
+      height: 1.44
+      description: High
+      closest: false
+    - time: 2025-08-31 20:37:00 +1000
+      height: 0.72
+      description: Low
+      closest: false
+
+- date: 2025-09-07 08:30:00 +1000
+  week: 19
+  description: Cock of the Walk or Knockout
+  hosting: Luddites
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-09-07 01:46:00 +1000
+      height: 0.26
+      description: Low
+      closest: false
+    - time: 2025-09-07 07:45:00 +1000
+      height: 1.47
+      description: High
+      closest: true
+    - time: 2025-09-07 13:30:00 +1000
+      height: 0.37
+      description: Low
+      closest: false
+    - time: 2025-09-07 19:53:00 +1000
+      height: 1.87
+      description: High
+      closest: false
+
+- date: 2025-09-14 08:30:00 +1000
+  week: 20
+  description: Finals, Cock of the Walk, Knockout, and 100%
+  hosting: Luddites
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-09-14 00:59:00 +1000
+      height: 1.23
+      description: High
+      closest: false
+    - time: 2025-09-14 06:40:00 +1000
+      height: 0.60
+      description: Low
+      closest: true
+    - time: 2025-09-14 13:22:00 +1000
+      height: 1.66
+      description: High
+      closest: false
+    - time: 2025-09-14 20:25:00 +1000
+      height: 0.51
+      description: Low
+      closest: false
+
+- date: 2025-09-21 08:30:00 +1000
+  week: 21
+  description: Australian Winter Swimming National Titles
+  hosting: null
+  location: null
+  tides: null
+
+- date: 2025-09-28 08:30:00 +1000
+  week: 22
+  description: Family Swim
+  hosting: null
+  location:
+    name: Wylies Baths
+    url: https://wylies.com.au
+  tides:
+    - time: 2025-09-28 05:15:00 +1000
+      height: 0.66
+      description: Low
+      closest: false
+    - time: 2025-09-28 11:57:00 +1000
+      height: 1.51
+      description: High
+      closest: true
+    - time: 2025-09-28 18:47:00 +1000
+      height: 0.64
+      description: Low
+      closest: false
+
+- date: 2025-11-01 17:30:00 +1000
+  week: null
+  description: Presentation Night
+  hosting: null
+  location:
+    name: South Maroubra Surf Life Saving Club
+    url: https://www.southmaroubrasurfclub.com.au/
+  tides: null
