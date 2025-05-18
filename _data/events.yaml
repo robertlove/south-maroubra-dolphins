@@ -516,5 +516,6 @@
   hosting: null
   location:
     name: South Maroubra Surf Life Saving Club
-    url: https://www.southmaroubrasurfclub.com.au/
+    url: https://www.southmaroubrasurfclub.com.au
+    image: southend-salmon.jpg
   tides: null
