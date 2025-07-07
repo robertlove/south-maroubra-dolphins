@@ -482,11 +482,14 @@
       description: Low
       closest: false
 
-- date: 2025-09-21 08:30:00 +1000
+- date: 2025-09-21 08:00:00 +1000
   week: 21
   description: Australian Winter Swimming National Titles
   hosting: null
-  location: null
+  location:
+    name: Cotton Tree Aquatic Centre
+    url: https://www.sunshinecoast.qld.gov.au/experience-sunshine-coast/sports-and-leisure/aquatic-centres-and-pools/cotton-tree-aquatic-centre
+    image: cotton-tree-aquatic-centre.jpg
   tides: null
 
 - date: 2025-09-28 08:30:00 +1000
