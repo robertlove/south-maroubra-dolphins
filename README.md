@@ -9,6 +9,8 @@ cd south-maroubra-dolphins
 
 ## Usage
 
+### Build
+
 ```shell
 bundle install
 bundle exec jekyll serve
@@ -19,6 +21,13 @@ bundle exec jekyll serve
 ```shell
 npm i -g purgecss
 purgecss --config ./purgecss.config.js
+```
+
+### HTMLProofer
+
+```shell
+gem install html-proofer
+htmlproofer ./_site --swap-urls '^/south-maroubra-dolphins/:/'
 ```
 
 ## Contributing
