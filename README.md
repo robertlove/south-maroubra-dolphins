@@ -10,9 +10,8 @@ cd south-maroubra-dolphins
 ## Usage
 
 ```shell
-bundle
-jekyll build
-jekyll serve
+bundle install
+bundle exec jekyll serve
 ```
 
 ## Contributing
