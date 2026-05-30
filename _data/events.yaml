@@ -125,7 +125,7 @@
 
 - date: 2026-06-07 08:30:00 +1000
   week: 6
-  description: Cock of the Walk
+  description: null
   hosting: Moths
   location:
     name: Wylies Baths
@@ -150,7 +150,7 @@
 
 - date: 2026-06-14 08:30:00 +1000
   week: 7
-  description: null
+  description: Cock of the Walk
   hosting: Moths
   location:
     name: Wylies Baths
@@ -200,7 +200,7 @@
 
 - date: 2026-06-28 08:30:00 +1000
   week: 9
-  description: null
+  description: Cock of the Walk
   hosting: Moths
   location:
     name: Wylies Baths
@@ -225,7 +225,7 @@
 
 - date: 2026-07-05 08:30:00 +1000
   week: 10
-  description: null
+  description: Knockout
   hosting: Moths
   location:
     name: Wylies Baths
@@ -275,7 +275,7 @@
 
 - date: 2026-07-19 08:30:00 +1000
   week: 12
-  description: null
+  description: Interclub with Maroubra Seals Winter Swimming Club
   hosting: Luddites
   location:
     name: Wylies Baths
@@ -321,7 +321,7 @@
 
 - date: 2026-08-02 08:30:00 +1000
   week: 14
-  description: null
+  description: Cock of the Walk
   hosting: Luddites
   location:
     name: Wylies Baths
@@ -346,7 +346,7 @@
 
 - date: 2026-08-09 08:30:00 +1000
   week: 15
-  description: Interclub with Maroubra Seals Winter Swimming Club
+  description: Knockout
   hosting: Luddites
   location:
     name: Wylies Baths
@@ -367,7 +367,7 @@
 
 - date: 2026-08-16 08:30:00 +1000
   week: 16
-  description: null
+  description: Cock of the Walk
   hosting: Yobbos
   location:
     name: Wylies Baths
@@ -392,7 +392,7 @@
 
 - date: 2026-08-23 08:30:00 +1000
   week: 17
-  description: 100 Yards Championships
+  description: 100 Yards Championships and Cock of the Walk
   hosting: Yobbos
   location:
     name: Wylies Baths
@@ -413,7 +413,7 @@
 
 - date: 2026-08-30 08:30:00 +1000
   week: 18
-  description: null
+  description: Knockout
   hosting: Yobbos
   location:
     name: Wylies Baths
