@@ -75,7 +75,7 @@
 
 - date: 2026-05-24 08:30:00 +1000
   week: 4
-  description: Knockout
+  description: null
   hosting: Dynamites
   location:
     name: Wylies Baths
@@ -100,7 +100,7 @@
 
 - date: 2026-05-31 08:30:00 +1000
   week: 5
-  description: null
+  description: Knockout
   hosting: Dynamites
   location:
     name: Wylies Baths
