@@ -2,7 +2,11 @@
   adult: 25
   child: 5
   child_under: 18
-- name: Swim
+- name: Race entry (season)
+  adult: 90
+  child: 35
+  child_under: 18
+- name: Race entry (day)
   adult: 5
   child: 2
   child_under: 18
