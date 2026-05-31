@@ -1,4 +1,4 @@
-- date: 2026-05-03 08:30:00 +1000
+- date: 2026-05-03 09:00:00 +1000
   week: 1
   description: Bring a friend
   hosting: Dynamites
@@ -23,7 +23,7 @@
       description: High
       closest: false
 
-- date: 2026-05-10 08:30:00 +1000
+- date: 2026-05-10 09:00:00 +1000
   week: 2
   description: null
   hosting: Dynamites
@@ -48,7 +48,7 @@
       description: Low
       closest: false
 
-- date: 2026-05-17 08:30:00 +1000
+- date: 2026-05-17 09:00:00 +1000
   week: 3
   description: null
   hosting: Dynamites
@@ -73,7 +73,7 @@
       description: High
       closest: false
 
-- date: 2026-05-24 08:30:00 +1000
+- date: 2026-05-24 09:00:00 +1000
   week: 4
   description: null
   hosting: Dynamites
@@ -98,7 +98,7 @@
       description: Low
       closest: false
 
-- date: 2026-05-31 08:30:00 +1000
+- date: 2026-05-31 09:00:00 +1000
   week: 5
   description: Knockout
   hosting: Dynamites
@@ -123,7 +123,7 @@
       description: High
       closest: false
 
-- date: 2026-06-07 08:30:00 +1000
+- date: 2026-06-07 09:00:00 +1000
   week: 6
   description: null
   hosting: Moths
@@ -148,7 +148,7 @@
       description: Low
       closest: false
 
-- date: 2026-06-14 08:30:00 +1000
+- date: 2026-06-14 09:00:00 +1000
   week: 7
   description: Cock of the Walk
   hosting: Moths
@@ -173,7 +173,7 @@
       description: High
       closest: false
 
-- date: 2026-06-21 08:30:00 +1000
+- date: 2026-06-21 09:00:00 +1000
   week: 8
   description: Knockout
   hosting: Moths
@@ -198,7 +198,7 @@
       description: Low
       closest: false
 
-- date: 2026-06-28 08:30:00 +1000
+- date: 2026-06-28 09:00:00 +1000
   week: 9
   description: Cock of the Walk
   hosting: Moths
@@ -223,7 +223,7 @@
       description: High
       closest: false
 
-- date: 2026-07-05 08:30:00 +1000
+- date: 2026-07-05 09:00:00 +1000
   week: 10
   description: Knockout
   hosting: Moths
@@ -248,7 +248,7 @@
       description: High
       closest: false
 
-- date: 2026-07-12 08:30:00 +1000
+- date: 2026-07-12 09:00:00 +1000
   week: 11
   description: Age Championships
   hosting: Luddites
@@ -273,7 +273,7 @@
       description: High
       closest: false
 
-- date: 2026-07-19 08:30:00 +1000
+- date: 2026-07-19 09:00:00 +1000
   week: 12
   description: Interclub with Maroubra Seals Winter Swimming Club
   hosting: Luddites
@@ -294,7 +294,7 @@
       description: Low
       closest: false
 
-- date: 2026-07-26 08:30:00 +1000
+- date: 2026-07-26 09:00:00 +1000
   week: 13
   description: Grade Championships
   hosting: Luddites
@@ -319,7 +319,7 @@
       description: High
       closest: false
 
-- date: 2026-08-02 08:30:00 +1000
+- date: 2026-08-02 09:00:00 +1000
   week: 14
   description: Cock of the Walk
   hosting: Luddites
@@ -344,7 +344,7 @@
       description: High
       closest: false
 
-- date: 2026-08-09 08:30:00 +1000
+- date: 2026-08-09 09:00:00 +1000
   week: 15
   description: Knockout
   hosting: Luddites
@@ -365,7 +365,7 @@
       description: High
       closest: false
 
-- date: 2026-08-16 08:30:00 +1000
+- date: 2026-08-16 09:00:00 +1000
   week: 16
   description: Cock of the Walk
   hosting: Yobbos
@@ -390,7 +390,7 @@
       description: High
       closest: false
 
-- date: 2026-08-23 08:30:00 +1000
+- date: 2026-08-23 09:00:00 +1000
   week: 17
   description: 100 Yards Championships and Cock of the Walk
   hosting: Yobbos
@@ -411,7 +411,7 @@
       description: High
       closest: false
 
-- date: 2026-08-30 08:30:00 +1000
+- date: 2026-08-30 09:00:00 +1000
   week: 18
   description: Knockout
   hosting: Yobbos
@@ -436,7 +436,7 @@
       description: High
       closest: false
 
-- date: 2026-09-06 08:30:00 +1000
+- date: 2026-09-06 09:00:00 +1000
   week: 19
   description: Cock of the Walk and Knockout
   hosting: Yobbos
@@ -461,7 +461,7 @@
       description: Low
       closest: false
 
-- date: 2026-09-13 08:30:00 +1000
+- date: 2026-09-13 09:00:00 +1000
   week: 20
   description: Finals and 100%
   hosting: Yobbos
@@ -486,7 +486,7 @@
       description: High
       closest: false
 
-- date: 2026-09-20 08:30:00 +1000
+- date: 2026-09-20 09:00:00 +1000
   week: 21
   description: Australian Winter Swimming National Titles
   hosting: null
@@ -496,7 +496,7 @@
     image: stirling-leisure.jpg
   tides: null
 
-- date: 2026-09-27 08:30:00 +1000
+- date: 2026-09-27 09:00:00 +1000
   week: 22
   description: Family Swim
   hosting: null
