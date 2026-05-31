@@ -150,7 +150,7 @@
 
 - date: 2026-06-14 09:00:00 +1000
   week: 7
-  description: Cock of the Walk
+  description: Cock of the walk
   hosting: Moths
   location:
     name: Wylies Baths
@@ -200,7 +200,7 @@
 
 - date: 2026-06-28 09:00:00 +1000
   week: 9
-  description: Cock of the Walk
+  description: Cock of the walk
   hosting: Moths
   location:
     name: Wylies Baths
@@ -250,7 +250,7 @@
 
 - date: 2026-07-12 09:00:00 +1000
   week: 11
-  description: Age Championships
+  description: Age championships
   hosting: Luddites
   location:
     name: Wylies Baths
@@ -296,7 +296,7 @@
 
 - date: 2026-07-26 09:00:00 +1000
   week: 13
-  description: Grade Championships
+  description: Grade championships
   hosting: Luddites
   location:
     name: Wylies Baths
@@ -321,7 +321,7 @@
 
 - date: 2026-08-02 09:00:00 +1000
   week: 14
-  description: Cock of the Walk
+  description: Cock of the walk
   hosting: Luddites
   location:
     name: Wylies Baths
@@ -367,7 +367,7 @@
 
 - date: 2026-08-16 09:00:00 +1000
   week: 16
-  description: Cock of the Walk
+  description: Cock of the walk
   hosting: Yobbos
   location:
     name: Wylies Baths
@@ -392,7 +392,7 @@
 
 - date: 2026-08-23 09:00:00 +1000
   week: 17
-  description: 100 Yards Championships and Cock of the Walk
+  description: 100 Yards championships and Cock of the walk
   hosting: Yobbos
   location:
     name: Wylies Baths
@@ -438,7 +438,7 @@
 
 - date: 2026-09-06 09:00:00 +1000
   week: 19
-  description: Cock of the Walk and Knockout
+  description: Cock of the walk and Knockout
   hosting: Yobbos
   location:
     name: Wylies Baths
@@ -463,7 +463,7 @@
 
 - date: 2026-09-13 09:00:00 +1000
   week: 20
-  description: Finals and 100%
+  description: 100% and Finals
   hosting: Yobbos
   location:
     name: Wylies Baths
@@ -488,7 +488,7 @@
 
 - date: 2026-09-20 09:00:00 +1000
   week: 21
-  description: Australian Winter Swimming National Titles
+  description: National championships
   hosting: null
   location:
     name: Stirling Leisure - Scarborough Beach
@@ -498,7 +498,7 @@
 
 - date: 2026-09-27 09:00:00 +1000
   week: 22
-  description: Family Swim
+  description: Family swim
   hosting: null
   location:
     name: Wylies Baths
