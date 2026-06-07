@@ -14,12 +14,17 @@ plugins:
   - jekyll-redirect-from
 
 exclude:
+  - .jekyll-cache/
+  - .sass-cache/
   - Gemfile
   - Gemfile.lock
+  - gemfiles/
   - LICENSE
+  - node_modules/
   - purgecss.config.js
   - Rakefile
   - README.md
+  - vendor/
 
 permalink: /:title
 
