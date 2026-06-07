@@ -12,6 +12,7 @@ theme_color: "#27445d"
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 exclude:
   - .jekyll-cache/
