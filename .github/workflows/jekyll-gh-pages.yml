@@ -16,6 +16,10 @@ jobs:
         uses: actions/configure-pages@v6
       - name: Build
         uses: actions/jekyll-build-pages@v1
+      - name: Remove unused CSS
+        run: |
+          npm install purgecss --no-save
+          npx purgecss --css ./_site/assets/css/*.css --content ./_site/**/*.html --output ./_site/assets/css/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
   deploy:
