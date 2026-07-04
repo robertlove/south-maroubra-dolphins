@@ -24,14 +24,13 @@ if (nextEvent) {
 
   let html = `There are no upcoming events at this time. Come <a href="{{- '/' | relative_url -}}#membership" class="text-reset fs-6">join us</a> for the {{ next_year }} winter swimming season.`;
 
-  for (const i in events) {
+  for (const event of events) {
 
-    let event = events[i];
     let datetime = Date.parse(event.datetime);
 
     if (datetime >= now) {
 
-      text = '';
+      let text = '';
 
       if (event.description) {
         text = `${event.description} on `;
