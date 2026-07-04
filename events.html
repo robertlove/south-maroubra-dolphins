@@ -26,7 +26,7 @@ layout: single
                   <tr>
                     <th>
                       {%- if event.location -%}
-                        {% include icon.html name='geo-alt' class='me-1' %} <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a>
+                        {% include icon.html name='geo-alt' class='me-1' %} <a href="{{ event.location.url }}" target="_blank" rel="noopener noreferrer">{{ event.location.name }}</a>
                       {%- endif -%}
                     </th>
                     <th>
