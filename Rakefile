@@ -7,4 +7,5 @@ task :clean do
   sh "rm -rf .jekyll-metadata"
   sh "rm -rf .local"
   sh "rm -rf .sass-cache"
+  sh "rm -rf vendor"
 end
