@@ -15,17 +15,12 @@ plugins:
   - jekyll-sitemap
 
 exclude:
-  - .jekyll-cache/
-  - .sass-cache/
-  - Gemfile
-  - Gemfile.lock
-  - gemfiles/
   - LICENSE
-  - node_modules/
-  - purgecss.config.js
+  - package-lock.json
+  - package.json
   - Rakefile
   - README.md
-  - vendor/
+  - scripts/
 
 permalink: /:title
 

@@ -13,9 +13,8 @@ cd south-maroubra-dolphins
 
 ```shell
 bundle install
-npm i -g purgecss
-npm i -g lightningcss-cli
 gem install html-proofer
+npm install
 ```
 
 ## Usage
@@ -26,16 +25,10 @@ gem install html-proofer
 bundle exec jekyll serve
 ```
 
-### Remove unused CSS
+### Optimize site
 
 ```shell
-purgecss --config ./purgecss.config.js
-```
-
-### Minify CSS
-
-```shell
-lightningcss --minify ./_site/assets/css/style.css -o ./_site/assets/css/style.css
+node scripts/optimize.js
 ```
 
 ### Check HTML
